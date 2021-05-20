@@ -7,4 +7,4 @@ echo "<script>window.location.replace('login.php');</script>";
 }
 $con = new mysqli("localhost", "root", "", "login");
 ?>
-selamat jalan <?php echo $_SESSION['username']; ?> <a href="logout.php">logout</a>
+<h1>selamat datang</h1> <?php echo $_SESSION['username']; ?> <a href="logout.php">logout</a>
